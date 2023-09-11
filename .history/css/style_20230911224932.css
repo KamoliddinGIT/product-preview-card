@@ -115,19 +115,9 @@ body {
   text-decoration: none;
   text-align: center;
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-}
-
-.addToCart:hover {
-  background: #0d402d;
-}
-
-.addToCart:active {
-  border: 3px dotted white;
-  outline: none;
+  background-image: url("../images/icon-cart.svg");
+  background-repeat: no-repeat;
+  background-position: 55px 15px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -164,6 +154,7 @@ body {
   }
   .addToCart {
     width: 208px;
+    background-position: 35px 15px;
   }
   .card__payment h1 {
     font-size: 27px;
@@ -210,5 +201,6 @@ body {
   }
   .addToCart {
     width: 208px;
+    background-position: 35px 15px;
   }
 }
